@@ -10,8 +10,8 @@ server.listen(process.env.port || process.env.PORT || 3978, function() {
 });
 // Create chat bot
 var connector = new builder.ChatConnector({
-    appId: '',
-    appPassword: ''
+    appId: '6eef6cdc-fbc7-4053-9089-810667ca815b',
+    appPassword: '06LvoxNDHavLSV7ELuocpVD'
 });
 var bot = new builder.UniversalBot(connector);
 var model = 'https://westus.api.cognitive.microsoft.com/luis/v2.0/apps/143e315a-20ff-4312-8f0e-eb91c4aba098?subscription-key=15517d1daf234f10ba01b7c44e901806&timezoneOffset=0&verbose=true&q=';
