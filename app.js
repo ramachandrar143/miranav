@@ -1,7 +1,7 @@
 var restify = require('restify');
 var builder = require('botbuilder');
-/*const APP_ID = '<LUIS_APP_ID>';
-const APP_KEY = 'LUIS_APP_PWD';*/
+const APP_ID = '<LUIS_APP_ID>';
+const APP_KEY = 'LUIS_APP_PWD';
 var server = restify.createServer();
 server.listen(process.env.port || process.env.PORT || 3978, function() {
     console.log("--------------------------------------------------------");
