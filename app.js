@@ -68,7 +68,6 @@ dialog.matches('navigation', [
     else if(fromPlaces=='from cse' && toPlaces == 'to mba'){
         session.send("Go straight till you reach CSE circle and use stairs to next floor and take right and walk beside library and  here is MBA department.");   
     }
-    
     else if(fromPlaces=='from cse' && toPlaces == 'to mca'){
         session.send("Go straight till you reach CSE circle and use stairs to next floor and take left and follow the MCA wing!");   
     }
