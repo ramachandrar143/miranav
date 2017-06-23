@@ -76,6 +76,30 @@ dialog.matches('navigation', [
         session.send("Go straight till you reach the circle and follow to the nxt department");
     }
 
+    else if(fromPlaces=='from ece' && toPlaces == 'to mba'){
+        session.send("Go straight till you reach ECE circle and use stairs to next floor and take right and follow the MBA wing!");   
+    }
+
+    else if(fromPlaces=='from ece' && toPlaces == 'to mca'){
+        session.send("Go straight till you reach ECE circle and use stairs to next floor and take left and follow the MCA wing!");   
+    }
+
+    else if(fromPlaces=='from ece' && toPlaces == 'to cse'){
+        session.send("Go straight till you reach CSE circle and continue walking to CSE wing!");   
+    }
+
+    else if(fromPlaces=='from ece' && toPlaces == 'to eee'){
+        session.send("Go straight till you reach CSE circle and use stairs facing opposite block and walk through the ground till you reach opposite block and take steps to reach 1st floor then take right. Here is EEE Department!");   
+    }
+    
+    else if(fromPlaces=='from ece' && toPlaces == 'to mech'){
+        session.send("Go straight till you reach CSE circle and use stairs facing opposite block and walk through the ground till you reach opposite block and take steps to reach 1st floor then take left. Here is Mechanical Department!");   
+    }
+
+    else if(fromPlaces=='from ece' && toPlaces == 'to civil'){
+        session.send("Go straight till you reach CSE circle and use stairs facing opposite block and walk through the ground till you reach opposite block and take steps to reach 2nd floor then take right. Here is Civil Department!");   
+    }
+
     }
 ]);
 dialog.matches('None',[
