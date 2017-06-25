@@ -35,7 +35,7 @@ dialog.matches('navigation', [
             exit(0);
         }
          console.log("navigation Intent Matched");
-         session.send("Ok, navigating you "+fromPlaces+" "+toPlaces);
+         session.send("Ok, "+session.message.user.name+" navigating you "+fromPlaces+" "+toPlaces);
 
             if(fromPlaces=='from cse' && toPlaces == 'to canteen'){
             session.send("Go straight till you reach CSE circle and step down to ground floor, \n walk straight through the out door next to the principle room and then you will reach Canteen!");
